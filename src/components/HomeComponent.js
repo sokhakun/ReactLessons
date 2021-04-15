@@ -3,13 +3,13 @@ import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
 
 function RenderCard({item}) {
     return(
-        <card>
+        <Card>
             <CardImg src={item.image} alt={item.name} />
             <CardBody>
                 <CardTitle>{item.name}</CardTitle>
                 <CardText>{item.description}</CardText>
             </CardBody>
-        </card>
+        </Card>
     );
 }
 function Home(props) {

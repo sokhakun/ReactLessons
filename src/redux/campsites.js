@@ -5,4 +5,4 @@ export const Campsites = (state = CAMPSITES, action) => {
         default:
             return state;
     }
-}
+};
